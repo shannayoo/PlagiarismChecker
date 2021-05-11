@@ -3,3 +3,9 @@
 #Step 2: Connect to Google's Search API and send a HTTP request
 #Step 3: Receive the HTTP response and calculate the result to print it
 
+import os
+
+def filehandler(fn):
+    f = open(fn, "r")
+    lines = f.readlines()
+    return lines
